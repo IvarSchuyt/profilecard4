@@ -1,0 +1,88 @@
+{
+  "id": "rich_text",
+  "type": "SharedSlice",
+  "name": "RichText",
+  "description": "RichText",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RichText",
+      "primary": {
+        "profilepicture": {
+          "type": "Image",
+          "config": {
+            "label": "profilepicture",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "name": {
+          "type": "StructuredText",
+          "config": {
+            "label": "name",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "skill1": {
+          "type": "Text",
+          "config": {
+            "label": "skill1",
+            "placeholder": ""
+          }
+        },
+        "skill2": {
+          "type": "Text",
+          "config": {
+            "label": "skill2",
+            "placeholder": ""
+          }
+        },
+        "skill3": {
+          "type": "Text",
+          "config": {
+            "label": "skill3",
+            "placeholder": ""
+          }
+        },
+        "location": {
+          "type": "Text",
+          "config": {
+            "label": "location",
+            "placeholder": ""
+          }
+        },
+        "LogoGithub": {
+          "type": "Image",
+          "config": {
+            "label": "LogoGithub",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "LogoInstagram": {
+          "type": "Image",
+          "config": {
+            "label": "logoinstagram",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "LinkEmail": {
+          "type": "Image",
+          "config": {
+            "label": "linkemail",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
