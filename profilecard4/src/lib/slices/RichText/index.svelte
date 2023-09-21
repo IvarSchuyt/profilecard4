@@ -1,8 +1,6 @@
 <script>
 	import { PrismicRichText } from '@prismicio/svelte';
-	// import Label from './Label.svelte';
 	import { PrismicImage } from '@prismicio/svelte';
-	// import { PrismicLink } from '@prismicio/svelte';
 
 	/** @type {import("@prismicio/client").Content.RichTextSlice} */
 	export let slice;
